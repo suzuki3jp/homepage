@@ -4,3 +4,6 @@ temp/
 
 # node.js
 node_modules/
+
+# svelte
+.svelte-kit/
