@@ -1,0 +1,6 @@
+# general
+temp/
+.env
+
+# node.js
+node_modules/
