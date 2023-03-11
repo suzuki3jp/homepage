@@ -3,4 +3,4 @@
 	import links_icon from '$lib/images/links-icon.png';
 </script>
 
-<ImageLoader src={'Z:' + links_icon} />
+<ImageLoader src={'Z:' + links_icon.replaceAll('/', '\\')} />

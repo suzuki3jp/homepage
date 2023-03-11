@@ -5,5 +5,8 @@
 </script>
 
 <a href={twitter}>
-	<ImageLoader src={'Z:' + Twitter} style="width: 30px; margin-right: 10px;" />
+	<ImageLoader
+		src={'Z:' + Twitter.replaceAll('/', '\\')}
+		style="width: 30px; margin-right: 10px;"
+	/>
 </a>
