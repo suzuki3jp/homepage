@@ -8,7 +8,7 @@
 </svelte:head>
 
 <Content>
-	<h1 style="text-align: center;">鈴木 (suzuki3jp)</h1>
+	<h1 style="text-align: center;">HOME</h1>
 
 	<p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
