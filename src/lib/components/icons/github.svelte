@@ -5,5 +5,5 @@
 </script>
 
 <a href={github}>
-	<ImageLoader src={GitHub} style="width: 30px; margin-right: 10px;" />
+	<ImageLoader src={'Z:' + GitHub} style="width: 30px; margin-right: 10px;" />
 </a>
