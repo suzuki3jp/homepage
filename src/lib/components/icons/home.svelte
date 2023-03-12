@@ -3,4 +3,4 @@
 	import home_icon from '$lib/images/home-icon.png';
 </script>
 
-<ImageLoader src={'Z:' + home_icon.replaceAll('/', '\\')} />
+<ImageLoader src={home_icon} />

@@ -3,4 +3,4 @@
 	import projects_icon from '$lib/images/projects-icon.png';
 </script>
 
-<ImageLoader src={'Z:' + projects_icon.replaceAll('/', '\\')} />
+<ImageLoader src={projects_icon} />
