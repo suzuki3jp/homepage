@@ -10,11 +10,11 @@
 
 	import {
 		Header,
-		ImageLoader,
 		SideNav,
 		SideNavItems,
 		SideNavLink,
 		SideNavMenu,
+		SideNavDivider,
 		SkipToContent,
 		Content
 	} from 'carbon-components-svelte';
@@ -45,10 +45,10 @@
 				href="/projects"
 				isSelected={$page.url.pathname === '/projects'}
 			/>
-			<SideNavMenu icon={LINKS_ICON} text="LINKS">
-				<SideNavLink text="Twitter" href={twitter} style="font-weight: bold;" />
-				<SideNavLink text="GitHub" href={github} style="font-weight: bold;" />
-			</SideNavMenu>
+			<SideNavDivider />
+			<SideNavLink icon={LINKS_ICON} text="LINKS" class="links-title" />
+			<SideNavLink text="Twitter" href={twitter} style="margin-left: 43px;" />
+			<SideNavLink text="GitHub" href={github} style="margin-left: 43px;" />
 		</SideNavItems>
 	</SideNav>
 
