@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { ImageLoader } from 'carbon-components-svelte';
 	import links_icon from '$lib/images/links-icon.png';
 </script>
 
-<ImageLoader src={links_icon} />
+<img src={links_icon} alt="links icon" />
