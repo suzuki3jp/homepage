@@ -25,7 +25,7 @@
 
 <div class="app">
 	<Header bind:isSideNavOpen style="display: none;">
-		<ImageLoader src={suzuki3jp_icon} style="width: 25px; margin-left: 12px;" />
+		<img src={suzuki3jp_icon} alt="suzuki3jp icon" style="width: 25px; margin-left: 12px;" />
 		<div style="margin-left: 10px">鈴木 (suzuki3jp)</div>
 		<svelte:fragment slot="skip-to-content">
 			<SkipToContent />
