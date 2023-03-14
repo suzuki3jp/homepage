@@ -13,7 +13,6 @@
 		SideNav,
 		SideNavItems,
 		SideNavLink,
-		SideNavMenu,
 		SideNavDivider,
 		SkipToContent,
 		Content
@@ -22,6 +21,10 @@
 
 	let isSideNavOpen = false;
 </script>
+
+<svelte:head>
+	<link rel="icon" type="image/png" href={suzuki3jp_icon} />
+</svelte:head>
 
 <div class="app">
 	<Header bind:isSideNavOpen style="display: none;">
