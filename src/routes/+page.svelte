@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="About this app" />
+	<meta name="description" content="suzuki3jp's homepage" />
 </svelte:head>
 
 <Content style="text-align: center;">
