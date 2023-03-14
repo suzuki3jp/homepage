@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Content } from 'carbon-components-svelte';
+	import suzuki3jp1000 from '$lib/images/suzuki3jpx1000.png';
 </script>
 
 <svelte:head>
@@ -7,24 +8,12 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<Content>
-	<h1 style="text-align: center;">HOME</h1>
-
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
-	</p>
+<Content style="text-align: center;">
+	<img src={suzuki3jp1000} alt="" style="width: 180px; padding-top: 20%;" />
+	<h1 style="margin-top: 3%; font-weight: bold;">suzuki3jp</h1>
+	<h4 style="font-family:'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';">
+		オタクしたりゲームしたりプログラム書いたり
+	</h4>
 </Content>
 
 <style>
