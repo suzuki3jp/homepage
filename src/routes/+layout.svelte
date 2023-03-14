@@ -7,6 +7,7 @@
 	import TWITTER_ICON from '$lib/components/icons/twitter.svelte';
 	import suzuki3jp_icon from '$lib/images/suzuki3jp-icon.png';
 	import { twitter, github } from '$lib/url.json';
+	import './common.css';
 
 	import {
 		Header,
