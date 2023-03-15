@@ -56,9 +56,7 @@
 		</SideNavItems>
 	</SideNav>
 
-	<main>
-		<slot />
-	</main>
+	<slot />
 
 	<footer>
 		<Content>
