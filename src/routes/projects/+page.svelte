@@ -16,7 +16,7 @@
 			<ProjectCard
 				title="ArikenCompany"
 				desc="Twitchのチャットボット<br>コメントに関する統計の収集<br>チャットコマンド、その他さまざまな機能を提供する<br><a href='https://nightbot.tv/'>Nightbot</a>をモデルに作成"
-				href="https://arikencompany.github.io/"
+				href="https://arikencompany.vercel.app/"
 				github="https://github.com/suzuki3jp/arikencompany"
 			/>
 			<ProjectCard
